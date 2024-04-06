@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+
+}
+
+body {
+    background-color: rgb(117, 225, 117);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    li {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
