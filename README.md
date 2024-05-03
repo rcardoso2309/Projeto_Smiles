@@ -1,2 +1,23 @@
 # Projeto_Smiles
 Dental Clinic Project
+- Versão 1
+	- Página principal 
+		- Cabeçalho 
+			- Logo
+			- Navbar
+		- Banner
+		- Main
+			- Lista de tratamentos 
+			- Formulário
+			- Sobre 
+				- Foto do time
+				- Texto sobre a empresa 
+		- Footer 
+			- About Us 
+			- Contact
+			- Social Media 
+			- Policy 
+		- Responsiveness
+	- Version 2
+		- Treatment page 
+		- Team page
