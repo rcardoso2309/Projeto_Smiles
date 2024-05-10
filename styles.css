@@ -2,11 +2,16 @@
     padding: 0px;
     margin: 0px;
     box-sizing:border-box;
+    font-family: sans-serif;
+    /* font-family: VAGRoundedLTCom-Bold; (to do)*/
+}
 
+:root {
+    --main-bg-color: rgb(117, 225, 117);
 }
 
 body {
-    background-color: rgb(117, 225, 117);
+    background-color: var(--main-bg-color);
     margin: auto;
     width: 90%;
 }
@@ -17,26 +22,34 @@ body {
     /* align-content: center; */
     justify-content: space-around;
     align-items: center;
-    height: 50px;
-    
+    height: 50px;   
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+
     li {
-        margin-left: 1px;
+        margin-left: 5px;
         cursor: pointer;
-        border-style: solid;
-        border-left: 3px solid rgb(227, 224, 224);
-        border-bottom: 3px solid rgb(227, 224, 224);
+        font-size: 14px;
+        padding: 10px 5px;
+        /* border: 1px solid rgb(196, 195, 195); */
+        border-radius: 5px;
+        width: 110px;
+        text-align: center;
+        background-color: #D1D1D1;
+    }
+
+    li:hover {
+        background-color: #A7A7A7;
     }
 }
 
 .banner{
     height: 250px;
-    background-color: bisque; 
+    background-color: rgb(206, 237, 206); 
 }
 
 .main-section{
