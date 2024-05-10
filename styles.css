@@ -7,7 +7,8 @@
 
 body {
     background-color: rgb(117, 225, 117);
-
+    margin: auto;
+    width: 90%;
 }
 
 .header {
@@ -33,6 +34,39 @@ body {
     }
 }
 
+.banner{
+    height: 250px;
+    background-color: bisque; 
+}
+
+.main-section{
+    display: flex;
+    height: 500px;
+    padding: 20px;
+}
+
+.main-section-treatment{
+    background-color:rgb(206, 237, 206);
+    width: 30%;
+    border: 1px solid black; 
+}    
+
+.main-section-content{
+    display: block;
+    width: 70%;  
+}
+
+.form{
+    background-color: rgb(206, 237, 206);
+    height: 30%;
+    border: 1px solid black;
+}
+
+.presentation{
+    background-color: rgb(206, 237, 206);
+    height: 70%;
+    border: 1px solid black;
+}
 
 .footer{
     background-color: rgb(179, 247, 224);
@@ -52,5 +86,5 @@ body {
         padding: 0px;
         list-style-type: none;
     }
-    
+ 
 }
